@@ -10,7 +10,7 @@ import UIKit
 /*
  A classe ApiClient é compartilhada entre as Controllers de Login e Feed,
  porém cada uma acessa uma determinada função, podendo então que a mesma (ApiClient)
- estabeleça um tipo de dependência do código-fonte
+ estabeleça um tipo de dependência do código-fonte.
  */
 
 
