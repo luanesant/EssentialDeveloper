@@ -101,6 +101,7 @@
 		04109C7328E9259D000963D1 /* EssentialDeveloper */ = {
 			isa = PBXGroup;
 			children = (
+				04109CA628E92F69000963D1 /* Lectures */,
 				04109C7428E9259D000963D1 /* AppDelegate.swift */,
 				04109C7628E9259D000963D1 /* SceneDelegate.swift */,
 				04109C7828E9259D000963D1 /* ViewController.swift */,
@@ -108,7 +109,6 @@
 				04109C7D28E925A1000963D1 /* Assets.xcassets */,
 				04109C7F28E925A1000963D1 /* LaunchScreen.storyboard */,
 				04109C8228E925A1000963D1 /* Info.plist */,
-				04109CA428E92815000963D1 /* Singleton.swift */,
 			);
 			path = EssentialDeveloper;
 			sourceTree = "<group>";
@@ -128,6 +128,22 @@
 				04109C9728E925A2000963D1 /* EssentialDeveloperUITestsLaunchTests.swift */,
 			);
 			path = EssentialDeveloperUITests;
+			sourceTree = "<group>";
+		};
+		04109CA628E92F69000963D1 /* Lectures */ = {
+			isa = PBXGroup;
+			children = (
+				04109CA728E92F7D000963D1 /* First */,
+			);
+			path = Lectures;
+			sourceTree = "<group>";
+		};
+		04109CA728E92F7D000963D1 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				04109CA428E92815000963D1 /* Singleton.swift */,
+			);
+			path = First;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
