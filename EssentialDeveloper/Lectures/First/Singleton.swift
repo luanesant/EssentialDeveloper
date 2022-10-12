@@ -50,7 +50,7 @@ extension ApiClient{
     func loadFeed(completion: ([FeedItem]) -> Void) {}
 }
 
-class FeedViewController: UIViewController{
+fileprivate class FeedingViewController: UIViewController{
     let api = ApiClient.shared
 
     override func viewDidLoad() {
