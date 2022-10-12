@@ -15,29 +15,37 @@ struct Reachability {
 }
 
 class FeedViewController: UIViewController{
-//    var loader: FeedLoader!
+    var loader: FeedLoader!
     var remote: RemoteFeedLoader!
     var local: LocalFeedLoader!
     
     convenience init(remote: RemoteFeedLoader, local: LocalFeedLoader) {
         self.init()
-//        self.loader = loader
         self.remote = remote
         self.local = local
     }
     
+    convenience init(loader: FeedLoader) {
+        self.init()
+        self.loader = loader
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Erro
+//        if Reachability.networkAvailable{
+//            remote.loadFeed(completion: { loadedItems in
+//
+//            })
+//        }else{
+//            local.loadFeed(completion: { loadedItems in
+//
+//            })
+//        }
         
-        if Reachability.networkAvailable{
-            remote.loadFeed(completion: { loadedItems in
-                
-            })
-        }else{
-            local.loadFeed(completion: { loadedItems in
-                
-            })
-        }
+        loader.loadFeed(completion: { loadedItems in
+            print("Hi Loader variable")
+        })
     }
 }
 
@@ -45,6 +53,7 @@ class FeedViewController: UIViewController{
 class RemoteFeedLoader: FeedLoader {
     func loadFeed(completion: @escaping([String]) -> Void){
         // Do something`
+        print("Hi Remote Feed Loader variable")
     }
 }
 /** This class inherits from `FeedLoader` */
@@ -52,6 +61,7 @@ class RemoteFeedLoader: FeedLoader {
 class LocalFeedLoader: FeedLoader {
     func loadFeed(completion: @escaping([String]) -> Void){
         // Do something
+        print("Hi Local Feed Loader variable")
     }
 }
 
