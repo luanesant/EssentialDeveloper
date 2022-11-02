@@ -6,14 +6,28 @@
 the difference from spaghetti architecture to a modular architecture.
 
 ##
-
-This is `spaghetti architecture`
-
 <p>
+- This is `spaghetti architecture`
   <a>
     <img src = "https://github.com/luanesant/EssentialDeveloper/blob/develop/EssentialDeveloper/Lectures/Third/Spaghetti%20Architecture.png"
           style="object-fit:scale-down;
-            width:200px;
+            width:300px;
+            height:300px;
+            border: solid 1px #CCC"/>
+  </a>
+ 
+ - This is `modular architecture`
+  <a>
+    <img src = "https://github.com/luanesant/EssentialDeveloper/blob/develop/EssentialDeveloper/Lectures/Third/Modular%20Desing.png"
+          style="object-fit:scale-down;
+            width:300px;
+            height:300px;
+            border: solid 1px #CCC"/>
+  </a>
+   <a>
+    <img src = "https://github.com/luanesant/EssentialDeveloper/blob/develop/EssentialDeveloper/Lectures/Third/Modular%20Application%20Architecture.png"
+          style="object-fit:scale-down;
+            width:300px;
             height:300px;
             border: solid 1px #CCC"/>
   </a>
