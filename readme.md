@@ -7,6 +7,7 @@ the difference from spaghetti architecture to a modular architecture.
 
 ##
 <p>
+ 
 - This is `spaghetti architecture`
   <a>
     <img src = "https://github.com/luanesant/EssentialDeveloper/blob/develop/EssentialDeveloper/Lectures/Third/Spaghetti%20Architecture.png"
