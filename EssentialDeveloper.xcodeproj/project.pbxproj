@@ -21,6 +21,12 @@
 		041159392912FD7200985FA0 /* ModularDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041159382912FD7200985FA0 /* ModularDesign.swift */; };
 		0411593B2912FF3B00985FA0 /* Spaghetti Architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 0411593A2912FF3B00985FA0 /* Spaghetti Architecture.png */; };
 		0411593D2912FF8200985FA0 /* Modular Application Architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 0411593C2912FF8200985FA0 /* Modular Application Architecture.png */; };
+		041159402913090500985FA0 /* Connecting Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411593F2913090500985FA0 /* Connecting Dots.swift */; };
+		041159422913099800985FA0 /* Exemple 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 041159412913099800985FA0 /* Exemple 1.png */; };
+		0411594429130ACD00985FA0 /* Example 1 (more explications).png in Resources */ = {isa = PBXBuildFile; fileRef = 0411594329130ACD00985FA0 /* Example 1 (more explications).png */; };
+		0411594929130B8A00985FA0 /* Example 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0411594729130B8A00985FA0 /* Example 2.png */; };
+		0411594A29130B8A00985FA0 /* Example 2 (more).png in Resources */ = {isa = PBXBuildFile; fileRef = 0411594829130B8A00985FA0 /* Example 2 (more).png */; };
+		0411594C29130BCF00985FA0 /* Example 2 (USE CASes).png in Resources */ = {isa = PBXBuildFile; fileRef = 0411594B29130BCF00985FA0 /* Example 2 (USE CASes).png */; };
 		04E3ADA628F73D1A00D73BAA /* DependencyAndCompositon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3ADA528F73D1A00D73BAA /* DependencyAndCompositon.swift */; };
 		04E3ADA828F746E700D73BAA /* DependencyAndCompositons.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3ADA728F746E700D73BAA /* DependencyAndCompositons.png */; };
 /* End PBXBuildFile section */
@@ -61,6 +67,12 @@
 		041159382912FD7200985FA0 /* ModularDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularDesign.swift; sourceTree = "<group>"; };
 		0411593A2912FF3B00985FA0 /* Spaghetti Architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spaghetti Architecture.png"; sourceTree = "<group>"; };
 		0411593C2912FF8200985FA0 /* Modular Application Architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Modular Application Architecture.png"; sourceTree = "<group>"; };
+		0411593F2913090500985FA0 /* Connecting Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connecting Dots.swift"; sourceTree = "<group>"; };
+		041159412913099800985FA0 /* Exemple 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exemple 1.png"; sourceTree = "<group>"; };
+		0411594329130ACD00985FA0 /* Example 1 (more explications).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Example 1 (more explications).png"; sourceTree = "<group>"; };
+		0411594729130B8A00985FA0 /* Example 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Example 2.png"; sourceTree = "<group>"; };
+		0411594829130B8A00985FA0 /* Example 2 (more).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Example 2 (more).png"; sourceTree = "<group>"; };
+		0411594B29130BCF00985FA0 /* Example 2 (USE CASes).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Example 2 (USE CASes).png"; sourceTree = "<group>"; };
 		04E3ADA528F73D1A00D73BAA /* DependencyAndCompositon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyAndCompositon.swift; sourceTree = "<group>"; };
 		04E3ADA728F746E700D73BAA /* DependencyAndCompositons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DependencyAndCompositons.png; path = ../../../../../../Desktop/DependencyAndCompositons.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +157,7 @@
 		04109CA628E92F69000963D1 /* Lectures */ = {
 			isa = PBXGroup;
 			children = (
+				0411593E2913059C00985FA0 /* Fourth */,
 				041159352912F86B00985FA0 /* Third */,
 				04E3ADA428F73CF400D73BAA /* Second */,
 				04109CA728E92F7D000963D1 /* First */,
@@ -169,6 +182,35 @@
 				041159382912FD7200985FA0 /* ModularDesign.swift */,
 			);
 			path = Third;
+			sourceTree = "<group>";
+		};
+		0411593E2913059C00985FA0 /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				0411594629130B7600985FA0 /* Example 2 */,
+				0411594529130B6A00985FA0 /* Example 1 */,
+				0411593F2913090500985FA0 /* Connecting Dots.swift */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		0411594529130B6A00985FA0 /* Example 1 */ = {
+			isa = PBXGroup;
+			children = (
+				041159412913099800985FA0 /* Exemple 1.png */,
+				0411594329130ACD00985FA0 /* Example 1 (more explications).png */,
+			);
+			path = "Example 1";
+			sourceTree = "<group>";
+		};
+		0411594629130B7600985FA0 /* Example 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0411594729130B8A00985FA0 /* Example 2.png */,
+				0411594829130B8A00985FA0 /* Example 2 (more).png */,
+				0411594B29130BCF00985FA0 /* Example 2 (USE CASes).png */,
+			);
+			path = "Example 2";
 			sourceTree = "<group>";
 		};
 		04E3ADA428F73CF400D73BAA /* Second */ = {
@@ -286,7 +328,12 @@
 			files = (
 				04109C8128E925A1000963D1 /* LaunchScreen.storyboard in Resources */,
 				04109C7E28E925A1000963D1 /* Assets.xcassets in Resources */,
+				0411594429130ACD00985FA0 /* Example 1 (more explications).png in Resources */,
+				0411594929130B8A00985FA0 /* Example 2.png in Resources */,
 				04E3ADA828F746E700D73BAA /* DependencyAndCompositons.png in Resources */,
+				041159422913099800985FA0 /* Exemple 1.png in Resources */,
+				0411594C29130BCF00985FA0 /* Example 2 (USE CASes).png in Resources */,
+				0411594A29130B8A00985FA0 /* Example 2 (more).png in Resources */,
 				0411593B2912FF3B00985FA0 /* Spaghetti Architecture.png in Resources */,
 				04109C7C28E9259D000963D1 /* Main.storyboard in Resources */,
 				0411593D2912FF8200985FA0 /* Modular Application Architecture.png in Resources */,
@@ -317,6 +364,7 @@
 			files = (
 				041159392912FD7200985FA0 /* ModularDesign.swift in Sources */,
 				04E3ADA628F73D1A00D73BAA /* DependencyAndCompositon.swift in Sources */,
+				041159402913090500985FA0 /* Connecting Dots.swift in Sources */,
 				04109C7928E9259D000963D1 /* ViewController.swift in Sources */,
 				04109CA528E92815000963D1 /* Singleton.swift in Sources */,
 				04109C7528E9259D000963D1 /* AppDelegate.swift in Sources */,
