@@ -157,6 +157,7 @@
 		04109CA628E92F69000963D1 /* Lectures */ = {
 			isa = PBXGroup;
 			children = (
+				04AF81C52919AC4E00569F05 /* Fifth */,
 				0411593E2913059C00985FA0 /* Fourth */,
 				041159352912F86B00985FA0 /* Third */,
 				04E3ADA428F73CF400D73BAA /* Second */,
@@ -211,6 +212,13 @@
 				0411594B29130BCF00985FA0 /* Example 2 (USE CASes).png */,
 			);
 			path = "Example 2";
+			sourceTree = "<group>";
+		};
+		04AF81C52919AC4E00569F05 /* Fifth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fifth;
 			sourceTree = "<group>";
 		};
 		04E3ADA428F73CF400D73BAA /* Second */ = {
